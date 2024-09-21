@@ -194,7 +194,7 @@ export const updatePassword = catchAsyncErrors(async (req, res, next) => {
 });
 
 export const getUserForPortfolio = catchAsyncErrors(async (req, res, next) => {
-  const id = "66ec5baa0cff94887174451e";
+  const id = "66ef215b9f8780101adfdbb0";
   const user = await User.findById(id);
   res.status(200).json({
     success: true,
